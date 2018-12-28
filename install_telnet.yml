@@ -1,0 +1,6 @@
+---
+- name: all
+  gather_facts: no
+  tasks:
+    - name: Install telnet
+      package: name=telnet
